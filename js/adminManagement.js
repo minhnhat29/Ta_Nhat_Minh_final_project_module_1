@@ -55,8 +55,8 @@ display = () => {
         str += "<td>" + arr[i].Type + "</td>"
         str += "<td>" + arr[i].Color + "</td>"
         str += "<td>" + arr[i].Price + "$" + "</td>"
-        str += "<td><button onclick='updateProduct("+i+")' style='background: rgba(255, 255, 255, 0.82); border: 1px solid black'>Update</button></td>"
-        str += "<td><button onclick='deleteProduct("+i+")' style='background: rgba(255, 255, 255, 0.82); border: 1px solid black'>Delete</button></td>"
+        str += "<td><button onclick='updateProduct(" + i + ")' style='background: rgba(255, 255, 255, 0.82); border: 1px solid black'>Update</button></td>"
+        str += "<td><button onclick='deleteProduct(" + i + ")' style='background: rgba(255, 255, 255, 0.82); border: 1px solid black'>Delete</button></td>"
         str += "</tr>";
     }
     document.getElementById('display').innerHTML = str;
@@ -74,10 +74,10 @@ addNewProduct = () => {
 }
 
 updateProduct = (index) => {
-    let name = prompt("Update product's name",arr[index].getName());
-    let type = prompt("Update product's type",arr[index].getType());
-    let color = prompt("Update product's color",arr[index].getColor());
-    let price = prompt("Update product's price",arr[index].getPrice());
+    let name = prompt("Update product's name", arr[index].getName());
+    let type = prompt("Update product's type", arr[index].getType());
+    let color = prompt("Update product's color", arr[index].getColor());
+    let price = prompt("Update product's price", arr[index].getPrice());
     arr[index].setName(name);
     arr[index].setType(type);
     arr[index].setColor(color);
@@ -86,11 +86,11 @@ updateProduct = (index) => {
 }
 
 deleteProduct = (index) => {
-    let check =confirm("Are you sure?");
-    if(check){
-    arr.splice(index, 1);
-    display();
-    } else{
+    let check = confirm("Are you sure?");
+    if (check) {
+        arr.splice(index, 1);
+        display();
+    } else {
         alert("Fuck you!");
     }
 }

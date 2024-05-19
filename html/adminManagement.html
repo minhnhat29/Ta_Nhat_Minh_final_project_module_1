@@ -6,57 +6,60 @@
 
 </head>
 <body>
-<header>
-    <img alt="" class="star_hover1" src="../image/star_hover.png">
-    <img alt="" class="star_hover2" src="../image/star_hover.png">
-    <img alt="" class="img_sun" src="../image/header_sun.png"/>
-    <img alt="" class="plane" src="../image/header_red_airplane.png"/>
-    <img alt="" class="cloud2" src="../image/cloud_2.png">
-    <img alt="" class="cloud1" src="../image/cloud_1.png">
-    <img alt="" class="cloud11" src="../image/cloud_1.png">
-    <button class="btn">Home</button>
-    <button class="btn">Plane</button>
-    <button class="btn">About Us</button>
+<div class="wrapper">
+    <header>
+        <img alt="" class="star_hover1" src="../image/star_hover.png">
+        <img alt="" class="star_hover2" src="../image/star_hover.png">
+        <img alt="" class="img_sun" src="../image/header_sun.png"/>
+        <img alt="" class="plane" src="../image/header_red_airplane.png"/>
+        <img alt="" class="cloud2" src="../image/cloud_2.png">
+        <img alt="" class="cloud1" src="../image/cloud_1.png">
+        <img alt="" class="cloud11" src="../image/cloud_1.png">
+        <button class="btn">Home</button>
+        <button class="btn">Plane</button>
+        <button class="btn">About Us</button>
 
-    <div class="type1">
-        <img alt="" class="cloud33" src="../image/header_cloud.png">
-        <a href="#" class="login"><strong>Login</strong></a>
-    </div>
+        <div class="type1">
+            <img alt="" class="cloud33" src="../image/header_cloud.png">
+            <a href="#" class="login"><strong>Login</strong></a>
+        </div>
 
-    <div class="type2">
-        <img alt="" class="cloud3" src="../image/header_cloud.png">
-        <a href="#" class="signup"><strong>Sign up</strong></a>
-    </div>
-    <img alt="" class="star1" src="../image/header_star.png">
-    <img alt="" class="star2" src="../image/header_star.png">
-    <img alt="" class="star3" src="../image/header_star.png">
-    <img alt="" class="star4" src="../image/header_star.png">
-    <img alt="" class="star5" src="../image/header_star.png">
-    <img alt="" class="star6" src="../image/header_star.png">
-    <img alt="" class="star_hover3" src="../image/star_hover.png">
-</header>
-<main>
-    <h1>System management</h1>
-    <button onclick="addNewProduct()" class="btn_add">Add product</button>
-    <table class="table">
-        <thead>
-        <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Type</th>
-            <th>Color</th>
-            <th>Price</th>
-            <th colspan="2">Action</th>
-        </tr>
-        </thead>
-        <tbody id="display">
-        </tbody>
-    </table>
-</main>
-<footer class="footer">
-    <p class="footerText">Tạ Nhật Minh C0323m4 jv103 CGHN</p>
-    <img alt="" class="ava" src="../image/minhava.jpg"/>
-</footer>
+        <div class="type2">
+            <img alt="" class="cloud3" src="../image/header_cloud.png">
+            <a href="#" class="signup"><strong>Sign up</strong></a>
+        </div>
+        <img alt="" class="star1" src="../image/header_star.png">
+        <img alt="" class="star2" src="../image/header_star.png">
+        <img alt="" class="star3" src="../image/header_star.png">
+        <img alt="" class="star4" src="../image/header_star.png">
+        <img alt="" class="star5" src="../image/header_star.png">
+        <img alt="" class="star6" src="../image/header_star.png">
+        <img alt="" class="star_hover3" src="../image/star_hover.png">
+    </header>
+    <main class="content">
+        <h1>System management</h1>
+        <button onclick="addNewProduct()" class="btn_add">Add product</button>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Color</th>
+                <th>Price</th>
+                <th colspan="2">Action</th>
+            </tr>
+            </thead>
+            <tbody id="display">
+            </tbody>
+        </table>
+    </main>
+    <footer class="footer">
+        <p class="footerText">Tạ Nhật Minh C0323m4 jv103 CGHN</p>
+        <img alt="" class="ava" src="../image/minhava.jpg"/>
+
+    </footer>
+</div>
 <script src="../js/adminManagement.js"></script>
 <link rel="stylesheet" href="../css/adminManagement.css">
 </body>
