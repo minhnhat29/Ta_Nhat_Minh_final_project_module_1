@@ -52,7 +52,7 @@ header {
     width: 100%;
     height: 200px;
     background: #00BDD666;
-    border-radius: 0px;
+    border-radius: 0;
     overflow: hidden; /* Ẩn các phần tử vượt ra ngoài header */
 }
 
@@ -179,7 +179,7 @@ footer{
 
 .star_hover2 {
     right: 400px;
-    top: 0px;
+    top: 0;
     height: 150px;
     width: 250px;
     position: absolute;

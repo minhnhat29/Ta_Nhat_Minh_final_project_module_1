@@ -79,7 +79,7 @@ updateProduct = (index) => {
     let color = prompt("Update product's color",arr[index].getColor());
     let price = prompt("Update product's price",arr[index].getPrice());
     arr[index].setName(name);
-    arr[index].setPrice(type);
+    arr[index].setType(type);
     arr[index].setColor(color);
     arr[index].setPrice(price);
     display();
