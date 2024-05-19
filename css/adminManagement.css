@@ -1,0 +1,270 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.img_sun {
+    left: 66px;
+    top: 8px;
+    position: absolute;
+    height: 150px;
+}
+
+.cloud1 {
+    left: 380px;
+    top: -38px;
+    position: absolute;
+    height: 120px;
+}
+
+.cloud11 {
+    left: 500px;
+    top: 110px;
+    position: absolute;
+    height: 120px;
+}
+
+.cloud2 {
+    left: 30px;
+    top: 55px;
+    position: absolute;
+    height: 120px;
+}
+
+.plane {
+    left: 300px;
+    top: 60px;
+    position: absolute;
+    height: 120px;
+}
+
+main {
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: #00BDD666;
+    border-radius: 0px;
+    overflow: hidden; /* Ẩn các phần tử vượt ra ngoài header */
+}
+
+footer{
+    position: relative;
+    background: #00BDD666;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.btn {
+    color: #00bdd6;
+    font-size: 16px;
+    margin-left: 30px;
+    position: relative;
+    top: 80px;
+    left: 720px;
+    background: rgba(255, 255, 255, 0.82);
+    height: 48px;
+    width: 90px;
+    border-radius: 10px;
+    border: 1px solid #5e3525;
+    transition: transform 0.8s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.cloud3 {
+    top: 30px;
+    right: 250px;
+    position: absolute;
+    height: 120px;
+    width: 150px;
+    transition: transform 0.8s ease;
+}
+
+.cloud3:hover {
+    transform: scale(1.1);
+}
+
+.cloud33 {
+    top: 30px;
+    right: 60px;
+    position: absolute;
+    height: 120px;
+    width: 150px;
+    transition: transform 0.8s ease;
+}
+
+.cloud33:hover {
+    transform: scale(1.1);
+}
+
+.login {
+    top: 90px;
+    right: 113px;
+}
+
+.signup {
+    top: 90px;
+    right: 298px;
+}
+
+.star1 {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 40px;
+    right: 260px;
+}
+
+.star2 {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    right: 300px;
+}
+
+.star3 {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 40px;
+    right: 340px;
+}
+
+.star4 {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 40px;
+    right: 150px;
+}
+
+.star5 {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 40px;
+    right: 70px;
+}
+
+.star6 {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    right: 110px;
+}
+
+.star_hover1 {
+    left: 500px;
+    bottom: 10px;
+    height: 150px;
+    width: 250px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.star_hover2 {
+    right: 400px;
+    top: 0px;
+    height: 150px;
+    width: 250px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out
+}
+
+.star_hover3 {
+    left: 200px;
+    top: 10px;
+    height: 150px;
+    width: 250px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out
+}
+
+
+.star_hover1:hover {
+    opacity: 1;
+}
+
+.star_hover2:hover {
+    opacity: 1;
+}
+
+.star_hover3:hover {
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+    font-style: initial;
+    position: absolute;
+    color: #00bdd6;
+}
+
+.btn_add{
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+    background: rgba(0, 189, 214, 0);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.btn_add:hover{
+    transform: scale(1.1);
+}
+
+.table {
+    width: 100%;
+    height: 100%;
+}
+
+.table {
+    background: #00BDD666;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    width: 20%;
+    height: 50px;
+    text-align: center;
+}
+
+.table th, .table td {
+    border: 1px solid black;
+}
+.footer{
+    align-items: center;
+}
+
+.footerText{
+    position: absolute;
+    left: 200px;
+    color: #000000;
+    font-size: 20px;
+}
+
+.ava{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+}
+
+.btn_
